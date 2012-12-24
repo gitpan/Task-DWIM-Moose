@@ -4,6 +4,8 @@ author:
   - 'Gabor Szabo <szabgab@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.59
+  Perl::Version: 1.011
+  Test::More: 0.42
 configure_requires:
   ExtUtils::MakeMaker: 6.59
 distribution_type: module
@@ -67,8 +69,10 @@ requires:
   MooseX::Types::Set::Object: 0.03
   MooseX::Types::Structured: 0.28
   Mouse: 0.97
+  Pod::Coverage::Moose: 0
+  namespace::autoclean: 0.09
   perl: 5.008
 resources:
   license: http://dev.perl.org/licenses/
   repository: https://github.com/dwimperl/Task-DWIM
-version: 0.06
+version: 0.07
